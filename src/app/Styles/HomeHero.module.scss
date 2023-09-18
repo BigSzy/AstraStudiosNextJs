@@ -1,0 +1,41 @@
+.HeroWrapper{
+    
+    .imageWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        
+        img{
+            width: 55%;
+
+        }
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+    .HeroWrapper{
+        .imageWrapper{
+            img{
+                height: auto;
+                width: 100%;
+    
+            }
+        }
+    
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .HeroWrapper{
+        .imageWrapper{
+            img{
+                width: 80%;
+    
+            }
+        }
+    
+    }
+}

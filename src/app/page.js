@@ -1,10 +1,16 @@
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import HomeHero from "./Components/HomeHero";
+import ProjectWrapper from "./Components/ProjectWrapper";
 
-import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      
+    <main>
+      <Header/>
+      <HomeHero/>
+      <ProjectWrapper/>
+      <Footer/>
     </main>
   )
 }
