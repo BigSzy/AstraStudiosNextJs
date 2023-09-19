@@ -1,0 +1,20 @@
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 50px 0;
+    padding: 20px;
+     
+    p{
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+    .textWrapper{
+        font-size: 1.15rem;
+    }
+}
