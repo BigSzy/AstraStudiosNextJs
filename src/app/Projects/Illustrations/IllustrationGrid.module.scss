@@ -8,7 +8,13 @@
     "img8 img9 img9"
     "img10 img11 img12"
     "img15 img15 img13"
-    "img15 img15 img14";
+    "img15 img15 img14"
+    "img16 img17 img18"
+    "img19 img19 img19"
+    "img20 img20 img21"
+    "img20 img20 img22"
+    "img23 img23 img23";
+
     grid-gap: 10px;
     padding: 100px;
 }
@@ -117,5 +123,72 @@
   img {
     width: 100%;
     height: 100%;
+  }
+}
+.img16 {
+  grid-area: img16;
+
+  img {
+    width: 100%;
+    
+  }
+}
+.img17 {
+  grid-area: img17;
+
+  img {
+    width: 100%;
+    
+  }
+}
+.img18 {
+  grid-area: img18;
+
+  img {
+    width: 100%;
+    
+  }
+}
+.img19 {
+  grid-area: img19;
+
+  img {
+    width: 100%;
+    
+  }
+}
+.img20 {
+  grid-area: img20;
+
+  img {
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+.img21 {
+  grid-area: img21;
+
+  img {
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+.img22 {
+  grid-area: img22;
+
+  img {
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+.img23 {
+  grid-area: img23;
+
+  img {
+    width: 100%;
+    
   }
 }

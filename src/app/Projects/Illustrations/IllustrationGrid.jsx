@@ -50,6 +50,30 @@ function IllustrationGrid() {
         <div className={styles.img15}>
           <img src="/img/illustration/Whale.png" alt="" />
         </div>
+        <div className={styles.img16}>
+          <img src="/img/illustration/Feelings1.png" alt="" />
+        </div>
+        <div className={styles.img17}>
+          <img src="/img/illustration/Feelings2.png" alt="" />
+        </div>
+        <div className={styles.img18}>
+          <img src="/img/illustration/Feelings3.png" alt="" />
+        </div>
+        <div className={styles.img19}>
+          <img src="/img/cover/IllustrationCover.png" alt="" />
+        </div>
+        <div className={styles.img20}>
+          <img src="/img/illustration/RedHat1.png" alt="" />
+        </div>
+        <div className={styles.img21}>
+          <img src="/img/illustration/RedHat2.png" alt="" />
+        </div>
+        <div className={styles.img22}>
+          <img src="/img/illustration/RedHat3.png" alt="" />
+        </div>
+        <div className={styles.img23}>
+          <img src="/img/illustration/RedHat4.png" alt="" />
+        </div>
       </div>
     </div>
   );
