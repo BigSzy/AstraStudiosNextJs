@@ -13,11 +13,11 @@ function Lucky() {
       <Header/>
       <LuckyHero/>
       <LuckyLead/>
+      <LuckyDisplay image="/img/lucky/IllustratedPoses2.jpg"/>
+      <LuckyDisplay image="/img/lucky/Hero.png"/>
       <LuckyDisplay image="/img/lucky/LuckyArmour.jpg"/>
       <LuckyDisplay image="/img/lucky/LuckyArmour2.jpg"/>
       <LuckyDisplay image="/img/lucky/IllustratedPoses.jpg"/>
-      <LuckyDisplay image="/img/lucky/IllustratedPoses2.jpg"/>
-      <LuckyDisplay image="/img/lucky/Hero.png"/>
       <LuckyDev/>
       <LuckyDisplay image="/img/lucky/StoryBoard.png"/>
       <LuckyGrid/>
