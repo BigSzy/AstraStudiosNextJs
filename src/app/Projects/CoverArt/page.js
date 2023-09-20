@@ -1,5 +1,3 @@
-import Footer from "@/app/Components/Footer";
-import Header from "@/app/Components/Header";
 import React from "react";
 import Grid from "./Grid";
 import PageHero from "@/app/Components/PageHero";
@@ -7,8 +5,7 @@ import PageLead from "@/app/Components/PageLead";
 
 function CoverArt() {
   return (
-    <main>
-      <Header />
+    <section>
       <PageHero title={"Music Cover Art"} />
       <PageLead
         text1={
@@ -19,8 +16,7 @@ function CoverArt() {
         }
       />
       <Grid />
-      <Footer />
-    </main>
+    </section>
   );
 }
 

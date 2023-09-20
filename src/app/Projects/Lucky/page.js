@@ -1,5 +1,3 @@
-import Footer from '@/app/Components/Footer'
-import Header from '@/app/Components/Header'
 import React from 'react'
 import LuckyHero from './LuckyHero'
 import LuckyLead from './LuckyLead'
@@ -9,8 +7,7 @@ import LuckyGrid from './LuckyGrid'
 
 function Lucky() {
   return (
-    <main>
-      <Header/>
+    <section>
       <LuckyHero/>
       <LuckyLead/>
       <LuckyDisplay image="/img/lucky/IllustratedPoses2.jpg"/>
@@ -22,8 +19,7 @@ function Lucky() {
       <LuckyDisplay image="/img/lucky/StoryBoard.png"/>
       <LuckyGrid/>
       <LuckyDisplay image="/img/lucky/LuckyHero2.jpg"/>
-      <Footer/>
-    </main>
+    </section>
   )
 }
 

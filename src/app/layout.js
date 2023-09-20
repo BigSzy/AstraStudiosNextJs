@@ -1,3 +1,5 @@
+import Footer from './Components/Footer'
+import Header from './Components/Header'
 import styles from './Styles/globals.scss'
 
 import { Dosis } from 'next/font/google'
@@ -12,7 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={dosis.className}>{children}</body>
+      <body className={dosis.className}>
+        <Header/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   )
 }
