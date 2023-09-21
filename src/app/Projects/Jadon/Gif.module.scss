@@ -1,0 +1,28 @@
+.gifContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0;
+
+    .gifItem{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        img{
+            border-radius: 10px;
+            width: 100%;
+        }
+
+    }
+
+}
+
+@media only screen and (min-width:0px) and (max-width:700px) {
+
+    .gifContainer{
+        flex-direction: column;
+    }
+}
