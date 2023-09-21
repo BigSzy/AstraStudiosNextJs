@@ -1,0 +1,162 @@
+.gridContainer {
+  display: grid;
+  grid-gap: 10px;
+  padding: 100px;
+  grid-template-areas:
+    "img1 img3 img3"
+    "img2 img3 img3"
+    "img4 img5 img6"
+    "img9 img9 img7"
+    "img9 img9 img8"
+    "img12 img11 img10"
+    "img13 img15 img15"
+    "img14 img15 img15"
+    "img16 img16 img17"
+    "img19 img19 img18"
+    "img19 img19 img20";
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+.img1 {
+  grid-area: img1;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img2 {
+  grid-area: img2;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img3 {
+  grid-area: img3;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img4 {
+  grid-area: img4;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img5 {
+  grid-area: img5;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img6 {
+  grid-area: img6;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img7 {
+  grid-area: img7;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img8 {
+  grid-area: img8;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img9 {
+  grid-area: img9;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img10 {
+  grid-area: img10;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img11 {
+  grid-area: img11;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img12 {
+  grid-area: img12;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img13 {
+  grid-area: img13;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img14 {
+  grid-area: img14;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img15 {
+  grid-area: img15;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img16 {
+  grid-area: img16;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img17 {
+  grid-area: img17;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img18 {
+  grid-area: img18;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img19 {
+  grid-area: img19;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.img20 {
+  grid-area: img20;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
