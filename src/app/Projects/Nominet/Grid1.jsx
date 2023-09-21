@@ -6,22 +6,22 @@ function Grid1() {
     <div className="container">
       <div className={styles.gridContainer}>
         <div className={styles.gridItem}>
-          <img src="/img/nominet/Sketch1.png" alt="" />
+          <img src="/img/nominet/Sketch1.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/nominet/Sketch2.png" alt="" />
+          <img src="/img/nominet/Sketch2.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/nominet/Sketch3.png" alt="" />
+          <img src="/img/nominet/Sketch3.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/nominet/Sketch4.png" alt="" />
+          <img src="/img/nominet/Sketch4.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/nominet/Sketch5.png" alt="" />
+          <img src="/img/nominet/Sketch5.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/nominet/Sketch6.png" alt="" />
+          <img src="/img/nominet/Sketch6.jpg" alt="" />
         </div>
       </div>
     </div>

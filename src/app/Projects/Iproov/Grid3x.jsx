@@ -6,31 +6,31 @@ function Grid3x() {
     <div className='container'>
     <div className={styles.gridContainer}>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration1.png" alt="" />
+            <img src="/img/iproov/Illustration1.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration2.png" alt="" />
+            <img src="/img/iproov/Illustration2.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration3.png" alt="" />
+            <img src="/img/iproov/Illustration3.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration4.png" alt="" />
+            <img src="/img/iproov/Illustration4.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration5.png" alt="" />
+            <img src="/img/iproov/Illustration5.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration6.png" alt="" />
+            <img src="/img/iproov/Illustration6.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration7.png" alt="" />
+            <img src="/img/iproov/Illustration7.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration8.png" alt="" />
+            <img src="/img/iproov/Illustration8.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-            <img src="/img/iproov/Illustration9.png" alt="" />
+            <img src="/img/iproov/Illustration9.jpg" alt="" />
         </div>
         
     </div>

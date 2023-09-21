@@ -7,16 +7,16 @@ function Grid2x() {
     <div className='container'>
         <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-                <img src="/img/posters/Curry.png" alt="" />
+                <img src="/img/posters/Curry.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/posters/Pogba.png" alt="" />
+                <img src="/img/posters/Pogba.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/posters/Bulls.png" alt="" />
+                <img src="/img/posters/Bulls.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/posters/Lebron.png" alt="" />
+                <img src="/img/posters/Lebron.jpg" alt="" />
             </div>
         </div>
     </div>

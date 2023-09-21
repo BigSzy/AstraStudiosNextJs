@@ -6,16 +6,16 @@ function Grid() {
     <div className="container">
       <div className={styles.gridContainer}>
         <div className={styles.gridItem}>
-          <img src="/img/portraits/Rashford.png" alt="" />
+          <img src="/img/portraits/Rashford.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/portraits/Kobe.png" alt="" />
+          <img src="/img/portraits/Kobe.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/portraits/Leo.png" alt="" />
+          <img src="/img/portraits/Leo.jpg" alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img src="/img/portraits/BlackPanther.png" alt="" />
+          <img src="/img/portraits/BlackPanther.jpg" alt="" />
         </div>
       </div>
     </div>

@@ -6,10 +6,10 @@ function SketchDisplay() {
     <div className='container'>
         <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-                <img src="/img/littlefox/Sketch1.png" alt="" />
+                <img src="/img/littlefox/Sketch1.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/littlefox/Sketch2.png" alt="" />
+                <img src="/img/littlefox/Sketch2.jpg" alt="" />
             </div>
         </div>
     </div>

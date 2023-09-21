@@ -15,7 +15,7 @@ function SketchGrid() {
                 <img src="/img/tehila/SketchBook.gif" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/SketchRun.png" alt="" />
+                <img src="/img/tehila/SketchRun.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
                 <img src="/img/tehila/SketchDestination.gif" alt="" />

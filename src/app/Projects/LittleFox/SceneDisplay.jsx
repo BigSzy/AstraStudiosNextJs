@@ -6,13 +6,13 @@ function SceneDisplay() {
     <div className='container'>
         <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-                <img src="/img/littlefox/Scene2.png" alt="" />
+                <img src="/img/littlefox/Scene2.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/littlefox/Scene3.png" alt="" />
+                <img src="/img/littlefox/Scene3.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/littlefox/Scene4.png" alt="" />
+                <img src="/img/littlefox/Scene4.jpg" alt="" />
             </div>
         </div>
     </div>

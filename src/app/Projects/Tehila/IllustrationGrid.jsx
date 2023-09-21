@@ -6,22 +6,22 @@ function IllustrationGrid() {
     <div className='container'>
         <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/IllustrationBed.png" alt="" />
+                <img src="/img/tehila/IllustrationBed.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/IllustrationCrossing.png" alt="" />
+                <img src="/img/tehila/IllustrationCrossing.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/IllustrationBook.png" alt="" />
+                <img src="/img/tehila/IllustrationBook.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/IllustrationRun2.png" alt="" />
+                <img src="/img/tehila/IllustrationRun2.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/IllustrationDestination.png" alt="" />
+                <img src="/img/tehila/IllustrationDestination.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/tehila/IllustrationShalom.png" alt="" />
+                <img src="/img/tehila/IllustrationShalom.jpg" alt="" />
             </div>
         </div>
 

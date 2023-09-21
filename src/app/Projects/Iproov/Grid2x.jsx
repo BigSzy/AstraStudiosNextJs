@@ -6,22 +6,22 @@ function Grid2x() {
     <div className='container'>
         <div className={styles.gridContainer}>
             <div className={styles.gridItem}>
-                <img src="/img/iproov/Sketch1.png" alt="" />
+                <img src="/img/iproov/Sketch1.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/iproov/Sketch2.png" alt="" />
+                <img src="/img/iproov/Sketch2.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/iproov/Sketch3.png" alt="" />
+                <img src="/img/iproov/Sketch3.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/iproov/Sketch4.png" alt="" />
+                <img src="/img/iproov/Sketch4.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/iproov/Sketch5.png" alt="" />
+                <img src="/img/iproov/Sketch5.jpg" alt="" />
             </div>
             <div className={styles.gridItem}>
-                <img src="/img/iproov/Sketch6.png" alt="" />
+                <img src="/img/iproov/Sketch6.jpg" alt="" />
             </div>
         </div>
     </div>

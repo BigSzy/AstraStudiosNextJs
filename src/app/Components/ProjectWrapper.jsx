@@ -7,58 +7,58 @@ function ProjectWrapper() {
     <div className="container">
       <div className={styles.projectWrapper}>
         <Project
-          image="/img/cover/LuckyProjectCover.png"
+          image="/img/cover/LuckyProjectCover.jpg"
           title="Alias : Lucky"
           href="/Projects/Lucky"
         />
         <Project
-          image="/img/cover/PortraitCover.png"
+          image="/img/cover/PortraitCover.jpg"
           title="Portrait Drawings"
           href="/Projects/Portraits"
         />
         <Project
-          image="/img/cover/MusicCover.png"
+          image="/img/cover/MusicCover.jpg"
           title="Cover Art"
           href="/Projects/CoverArt"
         />
         <Project
-          image="/img/cover/IllustrationCover.png"
+          image="/img/cover/IllustrationCover.jpg"
           title="Illustrations"
           href="/Projects/Illustrations"
         />
         <Project
-          image="/img/cover/LittleFoxCover.png"
+          image="/img/cover/LittleFoxCover.jpg"
           title="The Little Fox"
           href="/Projects/LittleFox"
         />
         <Project
-          image="/img/cover/MashUpCover.png"
+          image="/img/cover/MashUpCover.jpg"
           title="Sneaker Creations"
           href="/Projects/Sneakers"
         />
         <Project
-          image="/img/cover/PosterCover.png"
+          image="/img/cover/PosterCover.jpg"
           title="Sports Graphics"
           href="/Projects/SportsGraphics"
         />
         <Project
-          image="/img/cover/JSanchoCover.png"
+          image="/img/cover/JSanchoCover.jpg"
           title="Jadon Sancho Animation"
           href="/Projects/Jadon"
         />
         <Project
-          image="/img/cover/EidasCover.png"
+          image="/img/cover/EidasCover.jpg"
           title="iPROOV"
           href="/Projects/Iproov"
         />
         <Project
-          image="/img/cover/TehilaTrustCover.png"
+          image="/img/cover/TehilaTrustCover.jpg"
           title="Tehila Trust Project"
           href="/Projects/Tehila"
         />
 
         <Project
-          image="/img/cover/NominetCover.png"
+          image="/img/cover/NominetCover.jpg"
           title="Nominet Project"
           href="/Projects/Nominet"
         />

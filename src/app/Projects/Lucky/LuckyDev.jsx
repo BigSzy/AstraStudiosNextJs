@@ -6,10 +6,10 @@ function LuckyDev() {
     <div className="container">
       <div className={styles.gridContainer}>
         <div className={styles.gridItem1}>
-          <img src="/img/lucky/Poses.png" alt="" />
+          <img src="/img/lucky/Poses.jpg" alt="" />
         </div>
         <div className={styles.gridItem2}>
-          <img src="/img/lucky/Faces.png" alt="" />
+          <img src="/img/lucky/Faces.jpg" alt="" />
         </div>
         <div className={styles.gridItem3}>
           <img src="/img/lucky/LuckyGif.gif" alt="" />
