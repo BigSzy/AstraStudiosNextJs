@@ -1,0 +1,13 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+
+    .gridItem{
+
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
