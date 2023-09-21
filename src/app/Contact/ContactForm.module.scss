@@ -1,0 +1,209 @@
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .name {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    .firstName {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-right: 30px;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+      }
+
+      span {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+    }
+    .lastName {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+      }
+
+      span {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.5rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.5rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+  }
+
+  .message {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.5rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    width: 100%;
+    input {
+      width: 40%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 750px) {
+  .contactWrapper {
+    form {
+      .name {
+        flex-direction: column;
+
+        .firstName {
+          span {
+            font-size: 1.25rem;
+          }
+
+          input {
+            font-size: 1.25rem;
+            padding: 5px;
+          }
+        }
+        .lastName {
+          span {
+            font-size: 1.25rem;
+          }
+
+          input {
+            font-size: 1.25rem;
+            padding: 5px;
+          }
+        }
+      }
+
+      .email {
+        span {
+          font-size: 1.25rem;
+        }
+
+        input {
+          font-size: 1.25rem;
+          padding: 5px;
+        }
+      }
+
+      .mobile {
+        span {
+          font-size: 1.25rem;
+        }
+
+        input {
+          font-size: 1.25rem;
+          padding: 5px;
+        }
+      }
+      .message {
+        span {
+          font-size: 1.25rem;
+        }
+
+        input {
+          font-size: 1.25rem;
+          padding: 5px;
+        }
+      }
+
+      .submit{
+        span{
+            font-size: 1.25rem;
+        }
+
+        input{
+            font-size: 1.25rem;
+            padding: 5px;
+        }
+      }
+    }
+  }
+}
