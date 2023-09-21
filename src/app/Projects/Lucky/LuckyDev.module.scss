@@ -1,69 +1,39 @@
-.sectionWrapper {
-  width: 100%;
-  margin: 15px 0;
-  display: flex;
-  justify-content: center;
+.gridContainer{
+  display: grid;
+  grid-template-areas: 
+  "gridItem1 gridItem1 gridItem1 gridItem3"
+  "gridItem2 gridItem2 gridItem2 gridItem3";
+  grid-gap: 20px;
 
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 1, 1fr;
-    grid-gap: 10px;
+  img{
+    border-radius: 10px;
+  }
+}
+
+.gridItem1{
+  grid-area: gridItem1;
+  
+
+  img{
     width: 100%;
-    align-items: center;
-
-    .gridItem {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      img {
-        width: 100%;
-        border-radius: 10px;
-      }
-    }
-  }
-
-  .gifWrapper {
-    width: 35%;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    padding-left: 36px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-
-    img {
-      width: 100%;
-      border-radius: 10px;
-    }
+    height: 100%;
   }
 }
+.gridItem2{
+  grid-area: gridItem2;
+  
 
-@media only screen and (min-width: 0px) and (max-width: 750px) {
-  .sectionWrapper {
-    flex-direction: column;
-
-    .gridContainer {
-      grid-gap: 30px;
-    }
-
-    .gifWrapper {
-      width: 100%;
-      padding: 30px;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 50%;
-      }
-    }
+  img{
+    width: 100%;
+    height: 100%;
   }
 }
+.gridItem3{
+  grid-area: gridItem3;
+  
 
-@media only screen and (min-width: 751px) and (max-width: 1200px) {
-  .sectionWrapper {
-    .gifWrapper {
-      padding: 17px;
-    }
+  img{
+    width: 100%;
+    height: 100%;
   }
 }
