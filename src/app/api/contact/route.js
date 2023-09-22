@@ -3,7 +3,13 @@ import { SendEmailCommand } from "@aws-sdk/client-ses";
 import { SESClient } from "@aws-sdk/client-ses";
 
 // Create SES service object.
-const sesClient = new SESClient({ region: process.env.REGION, credentials: {accessKeyId: process.env.KEY, secretAccessKey: process.env.SECRET } });
+const sesClient = new SESClient({
+  region: process.env.REGION,
+  credentials: {
+    accessKeyId: process.env.KEY,
+    secretAccessKey: process.env.SECRET,
+  },
+});
 
 const createSendEmailCommand = (toAddress, fromAddress, body) => {
   return new SendEmailCommand({
@@ -27,7 +33,12 @@ const createSendEmailCommand = (toAddress, fromAddress, body) => {
         // },
         Text: {
           Charset: "UTF-8",
-          Data: body.message, 
+          Data: `
+          ${body.firstName} ${body.lastName}
+          ${body.mobile} 
+          ${body.email}
+          ${body.message}
+          `,
         },
       },
       Subject: {
@@ -55,13 +66,11 @@ export async function POST(request) {
     console.log(body);
     const response = await sesClient.send(sendEmailCommand);
 
-
     const data = { message: "Hello world" };
     return NextResponse.json(data);
-
   } catch (e) {
     console.error("Failed to send email.");
-    console.log(e)
+    console.log(e);
     return e;
   }
 }

@@ -16,9 +16,6 @@ function ContactForm() {
   const subject = useRef();
 
   async function submit (event)  {
-
-    event.preventDefault()
-
     const body = {
       firstName: firstName.current.value,
       lastName: lastName.current.value,
