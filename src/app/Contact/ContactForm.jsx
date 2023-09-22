@@ -13,16 +13,32 @@ function ContactForm() {
   const email = useRef();
   const mobile = useRef();
   const message = useRef();
+  const subject = useRef();
 
-  function submit(event) {
-    console.log(
-      firstName.current.value,
-      lastName.current.value,
-      email.current.value,
-      mobile.current.value,
-      message.current.value
-    );
-    console.log("hello");
+  async function submit (event)  {
+
+    event.preventDefault()
+
+    const body = {
+      firstName: firstName.current.value,
+      lastName: lastName.current.value,
+      email : email.current.value,
+      mobile: mobile.current.value,
+      message: message.current.value,
+      subject: subject.current.value
+    };
+
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "content-type" : "application/json"
+      },
+      body: JSON.stringify(body)
+    })
+
+    const data = await response.json()
+
+    console.log(data)
   }
   return (
     <div className={styles.contactWrapper}>
@@ -39,15 +55,21 @@ function ContactForm() {
           </div>
         </div>
 
+        <div className={styles.mobile}>
+          <span>Phone Number:</span>
+          <input className={dosis.className} type="text" ref={mobile} />
+        </div>
+
         <div className={styles.email}>
           <span>Email:</span>
           <input className={dosis.className} type="email" ref={email} />
         </div>
 
-        <div className={styles.mobile}>
-          <span>Phone Number:</span>
-          <input className={dosis.className} type="text" ref={mobile} />
+        <div className={styles.email}>
+          <span>Subject:</span>
+          <input className={dosis.className} type="text" ref={subject} />
         </div>
+
 
         <div className={styles.message}>
           <span>Your Message....</span>
