@@ -57,8 +57,8 @@ export async function POST(request) {
   const body = await request.json();
 
   const sendEmailCommand = createSendEmailCommand(
-    "szymon.kaluza@outlook.com",
-    "szymon.kaluza@outlook.com",
+    "alexjsmith25@hotmail.com",
+    "alexjsmith25@hotmail.com",
     body
   );
 
