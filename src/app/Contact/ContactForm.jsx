@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./ContactForm.module.scss";
 import { useRef } from "react";
 import { Dosis } from "next/font/google";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const dosis = Dosis({ subsets: ["latin"] });
 
@@ -14,29 +15,40 @@ function ContactForm() {
   const mobile = useRef();
   const message = useRef();
   const subject = useRef();
+  const reRef = useRef();
+  const SITE_KEY = "6LcuxpcoAAAAAFie14a4q7wpbQoQTPd3x-o5KiO9"
 
-  async function submit (event)  {
+  async function submit(event) {
+
+    console.log("Submitting...")
+
+    const token  = await reRef.current.getValue()
+
     const body = {
       firstName: firstName.current.value,
       lastName: lastName.current.value,
-      email : email.current.value,
+      email: email.current.value,
       mobile: mobile.current.value,
       message: message.current.value,
-      subject: subject.current.value
+      subject: subject.current.value,
+      token,
     };
+
+    console.log(body)
 
     const response = await fetch("/api/contact", {
       method: "POST",
       headers: {
-        "content-type" : "application/json"
+        "content-type": "application/json",
       },
-      body: JSON.stringify(body)
-    })
+      body: JSON.stringify(body),
+    });
 
-    const data = await response.json()
+    const data = await response.json();
 
-    console.log(data)
+    console.log(data);
   }
+
   return (
     <div className={styles.contactWrapper}>
       <form onSubmit={submit}>
@@ -67,11 +79,12 @@ function ContactForm() {
           <input className={dosis.className} type="text" ref={subject} />
         </div>
 
-
         <div className={styles.message}>
           <span>Your Message....</span>
           <textarea className={dosis.className} ref={message}></textarea>
         </div>
+
+        <ReCAPTCHA sitekey={SITE_KEY} ref={reRef} />
 
         <div className={styles.submit}>
           <input className={dosis.className} type="submit"></input>

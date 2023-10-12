@@ -64,8 +64,17 @@ export async function POST(request) {
 
   try {
     console.log(body);
-    const response = await sesClient.send(sendEmailCommand);
 
+    const racaptchaResponse = await fetch(
+      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.GOOGLE_SECRET_KEY}&response=${body.token}`,
+      { method: "POST" }
+    );
+    const recaptchaPayload = await racaptchaResponse.json();
+
+    if (recaptchaPayload.success) {
+      console.log("Recaptcha successful")
+      const response = await sesClient.send(sendEmailCommand);
+    }
     const data = { message: "Hello world" };
     return NextResponse.json(data);
   } catch (e) {
