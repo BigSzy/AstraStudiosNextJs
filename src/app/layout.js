@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import styles from "./Styles/globals.scss";
@@ -14,6 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </Head>
       <body className={dosis.className}>
         <Header />
         <main>{children}</main>
