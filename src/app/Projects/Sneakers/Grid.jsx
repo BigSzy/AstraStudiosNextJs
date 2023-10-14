@@ -50,21 +50,6 @@ function Grid() {
             <div className={styles.img15}>
                 <img src="/img/sneakers/XL-Punpkin.jpg" alt="" />
             </div>
-            <div className={styles.img16}>
-                <img src="/img/sneakers/Shoe2.jpg" alt="" />
-            </div>
-            <div className={styles.img17}>
-                <img src="/img/sneakers/ShoeConcept.jpg" alt="" />
-            </div>
-            <div className={styles.img18}>
-                <img src="/img/sneakers/Shoe3.jpg" alt="" />
-            </div>
-            <div className={styles.img19}>
-                <img src="/img/sneakers/Shoe1.jpg" alt="" />
-            </div>
-            <div className={styles.img20}>
-                <img src="/img/sneakers/Remade.jpg" alt="" />
-            </div>
         </div>
     </div>
   )

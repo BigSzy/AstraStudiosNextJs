@@ -27,11 +27,6 @@ function ProjectWrapper() {
           href="/Projects/Illustrations"
         />
         <Project
-          image="/img/cover/LittleFoxCover.jpg"
-          title="The Little Fox"
-          href="/Projects/LittleFox"
-        />
-        <Project
           image="/img/cover/MashUpCover.jpg"
           title="Sneaker Creations"
           href="/Projects/Sneakers"
@@ -47,20 +42,9 @@ function ProjectWrapper() {
           href="/Projects/Jadon"
         />
         <Project
-          image="/img/cover/EidasCover.jpg"
-          title="iPROOV"
-          href="/Projects/Iproov"
-        />
-        <Project
           image="/img/cover/TehilaTrustCover.jpg"
           title="Tehila Trust Project"
           href="/Projects/Tehila"
-        />
-
-        <Project
-          image="/img/cover/NominetCover.jpg"
-          title="Nominet Project"
-          href="/Projects/Nominet"
         />
       </div>
     </div>

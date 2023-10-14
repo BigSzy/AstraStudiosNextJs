@@ -6,7 +6,7 @@ import PageHero from "../Components/PageHero";
 function Contact() {
   return (
     <section>
-      <PageHero title={"Contact Me"} />
+      <PageHero title={"Contact Us"} />
       <ContactForm />
     </section>
   );

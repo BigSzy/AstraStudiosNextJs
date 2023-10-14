@@ -23,7 +23,7 @@
         
         a{
           text-decoration: none;
-          font-size: 1.5rem;
+          font-size: 1rem;
         }
         
         h2 {
@@ -39,11 +39,11 @@
   
         .navLinks {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-evenly;
           a {
             text-decoration: none;
             color: #fff;
-            font-size: 1.5rem;
+            font-size: 1rem;
           }
   
           a:hover {
@@ -63,7 +63,7 @@
           }
   
           h2{
-            font-size: 1.25rem;
+            font-size: 1rem;
           }
         }
         .rightSide {
