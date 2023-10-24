@@ -12,8 +12,9 @@ function Footer() {
       <div className="container">
         <div className={styles.footerRow}>
           <div className={styles.footerCol}>
-            <h3 className={unbounded.className}>Astra Studios</h3>
-            <p>Free Lance Graphics Designer</p>
+            <h3 className={unbounded.className}>AJ Smith</h3>
+            <p>Astra Studios</p>
+            <p>Freelance Graphics Designer</p>
             <p>Illustrator</p>
           </div>
 
