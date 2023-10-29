@@ -5,6 +5,12 @@
   width: 100%;
   margin-top: 60px;
 
+  .required{
+    color: red;
+    margin-top: 10px;
+    font-size: smaller;
+  }
+
   form {
     display: flex;
     flex-direction: column;

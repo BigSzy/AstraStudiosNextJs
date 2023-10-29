@@ -9,7 +9,7 @@ const dosis = Dosis({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Astra Studios",
-  description: "Astra Studios by Alex Smith",
+  description: "Astra Studios by AJ Smith",
 };
 
 export default function RootLayout({ children }) {
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, archive"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <body className={dosis.className}>
