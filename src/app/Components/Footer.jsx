@@ -2,9 +2,9 @@ import React from "react";
 import styles from "../Styles/Footer.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { Unbounded } from 'next/font/google'
+import { Unbounded } from "next/font/google";
 
-const unbounded = Unbounded({ subsets: ['latin'] })
+const unbounded = Unbounded({ subsets: ["latin"] });
 
 function Footer() {
   return (
@@ -26,10 +26,18 @@ function Footer() {
 
           <div className={styles.footerCol}>
             <div className={styles.social}>
-              <a className={unbounded.className} href="https://www.youtube.com/@Astra.Studios" target="_blank">
+              <a
+                className={unbounded.className}
+                href="https://www.youtube.com/@Astra.Studios"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faYoutube} size="2x" fixedWidth />
               </a>
-              <a className={unbounded.className} href="https://www.instagram.com/aj.astra/" target="_blank">
+              <a
+                className={unbounded.className}
+                href="https://www.instagram.com/aj.astra/"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faInstagram} size="2x" fixedWidth />
               </a>
             </div>

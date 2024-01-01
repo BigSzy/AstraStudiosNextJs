@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { SendEmailCommand } from "@aws-sdk/client-ses";
 import { SESClient } from "@aws-sdk/client-ses";
 
-// Create SES service object.
+
 const sesClient = new SESClient({
   region: process.env.REGION,
   credentials: {
@@ -14,23 +14,19 @@ const sesClient = new SESClient({
 const createSendEmailCommand = (toAddress, fromAddress, body) => {
   return new SendEmailCommand({
     Destination: {
-      /* required */
+
       CcAddresses: [
-        /* more items */
+
       ],
       ToAddresses: [
         toAddress,
-        /* more To-email addresses */
+
       ],
     },
     Message: {
-      /* required */
+
       Body: {
-        /* required */
-        // Html: {
-        //   Charset: "UTF-8",
-        //   Data: "HTML_FORMAT_BODY",
-        // },
+
         Text: {
           Charset: "UTF-8",
           Data: `
@@ -48,7 +44,7 @@ const createSendEmailCommand = (toAddress, fromAddress, body) => {
     },
     Source: fromAddress,
     ReplyToAddresses: [
-      /* more items */
+
     ],
   });
 };
@@ -79,7 +75,6 @@ export async function POST(request) {
     return NextResponse.json(data);
   } catch (e) {
     console.error("Failed to send email.");
-    console.log(e);
     return e;
   }
 }

@@ -1,17 +1,5 @@
 .HeroWrapper{
     
-    .imageWrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 50px 0;
-        img{
-            width: 50%;
-
-        }
-    }
-
     .textWrapper{
         display: flex;
         justify-content: center;
@@ -23,6 +11,7 @@
             color: #fff;
             border-bottom: solid 2px #fff;
             font-size: 2rem;
+            margin-top: 50px;
         }
     }
 
@@ -30,12 +19,6 @@
 
 @media only screen and (min-width: 0px) and (max-width: 700px) {
     .HeroWrapper{
-        .imageWrapper{
-            img{
-                width: 50% ;
-    
-            }
-        }
 
         .textWrapper{
             display: flex;
