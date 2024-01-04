@@ -4,6 +4,9 @@ import PageHero from "../Components/PageHero";
 
 
 function Contact() {
+
+  
+
   return (
     <section>
       <PageHero title={"Contact Me"} />
