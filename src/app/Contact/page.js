@@ -8,7 +8,7 @@ function Contact() {
   
 
   return (
-    <section>
+    <section className="container">
       <PageHero title={"Contact Me"} />
       <ContactForm />
     </section>
