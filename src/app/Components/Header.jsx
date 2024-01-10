@@ -53,13 +53,13 @@ function Header() {
       </div>
 
       <div className={styles.mobileLinks} ref={mobileLinks}>
-        <Link href="/" className={unbounded.className}>
+        <Link onClick={() => setToggle((toggle) => !toggle)} href="/" className={unbounded.className}>
           Home
         </Link>
-        <Link href="/About" className={unbounded.className}>
+        <Link onClick={() => setToggle((toggle) => !toggle)} href="/About" className={unbounded.className}>
           About
         </Link>
-        <Link href="/Contact" className={unbounded.className}>
+        <Link onClick={() => setToggle((toggle) => !toggle)} href="/Contact" className={unbounded.className}>
           Contact
         </Link>
       </div>
