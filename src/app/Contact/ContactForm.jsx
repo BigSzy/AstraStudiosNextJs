@@ -2,7 +2,7 @@
 
 import React from "react";
 import styles from "./ContactForm.module.scss";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { Dosis } from "next/font/google";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -15,12 +15,12 @@ function ContactForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    reset,
+    formState: { errors, isSubmitSuccessful },
   } = useForm();
 
   async function submit(data) {
-    console.log("Submitting...");
-    console.log(data);
+
 
     const token = await reRef.current.getValue();
 
@@ -29,7 +29,7 @@ function ContactForm() {
       token,
     };
 
-    console.log(body);
+
 
     const response = await fetch("/api/contact", {
       method: "POST",
@@ -41,8 +41,15 @@ function ContactForm() {
 
     const ret = await response.json();
 
-    console.log(ret);
+
   }
+
+  useEffect(() => {
+    if(isSubmitSuccessful){
+      reset()
+    }
+  }),[isSubmitSuccessful, reset]
+
 
   return (
     <div className={styles.contactWrapper}>
@@ -137,12 +144,13 @@ function ContactForm() {
             </p>
           )}
         </div>
+        
+        <ReCAPTCHA sitekey={SITE_KEY} ref={reRef} />
 
         <div className={styles.submit}>
           <input className={dosis.className} type="submit"></input>
         </div>
 
-        <ReCAPTCHA sitekey={SITE_KEY} ref={reRef} />
 
       </form>
     </div>
